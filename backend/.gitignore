@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+.env.local
+
+# local data
+data/
+*.sqlite3
+
+# PyCharm
+.idea/
+
+# VSCode workspace
+.vscode/

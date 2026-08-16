@@ -1,0 +1,101 @@
+# ---- Python ----
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.Python
+
+# Env and secrets
+.env
+backend/.env
+
+# PyTest and coverage
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# ---- Backend Data ----
+# Keep folder structure but ignore contents
+backend/data/tenders/*
+backend/data/uploaded_files/*
+!backend/data/tenders/.gitkeep
+!backend/data/uploaded_files/.gitkeep
+backend/tender_database.json
+backend/tender_memory.json
+
+# ---- Node/React ----
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/package-lock.json
+
+# ---- VS Code/IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Other ----
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.env
+.env.local
+.env.*.local
+
+# VSCode / editors
+.vscode/
+*.code-workspace
+
+# macOS / windows
+.DS_Store
+Thumbs.db
+
+# Python packaging / pip
+pip-wheel-metadata/
+build/
+dist/
+
+# data and caches
+data/extraction_cache/
+data/extraction_audit/
+data/uploaded_files/
+data/tenders/
+
+# node/npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# logs
+*.log
+
+# IDE
+.idea/
+*.iml
