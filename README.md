@@ -493,6 +493,4 @@ document processing, automated compliance analysis, FastAPI backend
 development, React frontend development, team leadership, Git/GitHub
 collaboration, and full-stack system integration.
 
-## License
 
-This project is available under the MIT License.
